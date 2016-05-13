@@ -1,0 +1,151 @@
+*, *:after, *:before { 
+	box-sizing: border-box; 
+}
+
+.container a {
+	color: #888;
+	text-decoration: none;
+}
+.container h2 {
+    font-size: 43px;
+
+    text-align: center;
+	padding: 5px 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 50px;
+	display: inline-block;
+	background: #31a7c4;
+	color: white;
+}
+
+.contnedor {
+	padding: 0px 20px 100px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.contnedor li {
+	display: inline-block;
+	margin: 10px;
+	padding-left: 10px;
+	text-align: left;
+	position: relative;
+	float: left;
+}
+
+
+.contnedor figure {
+	margin: 0;
+	position: relative;
+}
+
+.contnedor figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+
+.contnedor figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	background: #666666;
+	color: #ed4e6e;
+}
+
+
+figcaption span {
+    color: #DDDDDD;
+    display: block;
+    font-size: 13px;
+    margin: 12px 0;
+    text-align: left;
+}
+
+.contnedor figcaption h3 {
+    border-bottom: 1px solid #777777;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+
+.contnedor figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #31a7c4;
+	color: #fff;
+
+}
+
+
+/* Caption animación*/
+
+
+.caption li {
+	perspective: 1800px;
+	perspective-origin: 0 0%;
+}
+
+.caption figure {
+	transform-style: preserve-3d;
+}
+
+.caption figure > div {
+	overflow: hidden;
+}
+
+.caption figure img {
+	transition: transform 0.3s ease-out;
+}
+
+.caption figure:hover img
+{
+	transform: translateX(23%);
+	cursor: pointer;
+}
+
+
+
+.caption figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	backface-visibility: hidden;
+	transform-origin: 0 0;
+	transform: rotateY(-90deg);
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
+.caption figure:hover figcaption{
+	opacity: 1;
+	transform: rotateY(0deg);
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+
+.caption figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+.btn_hover:hover {
+	background: #3fc7e8;
+	transition: all 0.2s ease-in;
+}
+
+
+
+
