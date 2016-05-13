@@ -292,3 +292,11 @@ li{
 	background: #31a7c4;
 	color: white;
 }
+iframe{
+	clear: both;
+	display: inline-block;
+	margin:10px;
+	background:#acd1b2;
+	padding:10px;
+	border-radius:6px;
+}
