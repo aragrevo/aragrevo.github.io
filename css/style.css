@@ -262,7 +262,6 @@ footer p{
 
 footer ul{
 	list-style:none;
-	float: left;
 	margin-top: 10px;
 	float: right;
 }
@@ -293,10 +292,35 @@ li{
 	color: white;
 }
 iframe{
-	clear: both;
-	display: inline-block;
 	margin:10px;
 	background:#acd1b2;
 	padding:10px;
 	border-radius:6px;
+	position: absolute;
+	width:285px;
+	height:185px;
+}
+
+.caption-video {
+opacity: 0.9;
+transition: all 0.7s ease-in-out;
+}
+
+.video1{
+transform: translate(-160px,-180px);
+}
+.video2{
+transform: translate(180px,-180px);
+}
+.video3{
+transform: translate(-160px,200px);
+}
+.video4{
+transform: translate(180px,200px);
+}
+
+.caption-video:hover {
+transform: scale(1.3,1.3);
+opacity: 1;
+z-index: 1;
 }

@@ -1,0 +1,73 @@
+/*.caption li {
+	perspective: 1800px;
+	perspective-origin: 0 0%;
+}
+
+.caption figure {
+	transform-style: preserve-3d;
+}
+
+.caption figure > div {
+	overflow: hidden;
+}
+
+.caption figure img {
+	transition: transform 0.3s ease-out;
+}
+
+.caption figure:hover img
+{
+	transform: translateX(23%);
+	cursor: pointer;
+}
+
+
+
+.caption figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	backface-visibility: hidden;
+	transform-origin: 0 0;
+	transform: rotateY(-90deg);
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
+.caption figure:hover figcaption{
+	opacity: 1;
+	transform: rotateY(0deg);
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+
+.caption figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+.btn_hover:hover {
+	background: #3fc7e8;
+	transition: all 0.2s ease-in;
+}
+
+.caption {
+transition: all 0.2s linear;
+}*/
+
+.caption {
+opacity: 0.5;
+transition: all 0.7s ease-in-out;
+transform: translateX(-100px);
+transform: translateY(0px);
+}
+
+.caption:hover {
+transform: scale(2.1);
+opacity: 1;
+}
+
