@@ -6,17 +6,7 @@
 	color: #888;
 	text-decoration: none;
 }
-.container h2 {
-    font-size: 43px;
 
-    text-align: center;
-	padding: 5px 10px;
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 50px;
-	display: inline-block;
-	background: #31a7c4;
-	color: white;
-}
 
 .contnedor {
 	padding: 0px 20px 100px 20px;
@@ -145,7 +135,3 @@ figcaption span {
 	background: #3fc7e8;
 	transition: all 0.2s ease-in;
 }
-
-
-
-

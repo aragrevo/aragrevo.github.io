@@ -279,3 +279,16 @@ li{
 	list-style-type: none;
 	padding-right: 5px;
 }
+
+/*Otros*/
+.container h2 {
+    font-size: 43px;
+
+    text-align: center;
+	padding: 5px 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 50px;
+	display: inline-block;
+	background: #31a7c4;
+	color: white;
+}
