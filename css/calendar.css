@@ -13,7 +13,8 @@
 .race {
     border-collapse: collapse;
     width: 100%;
-    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: bold;
 }
 
 .race td {
@@ -34,7 +35,8 @@
 }
 
 .race2 {
-    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT";
+  font-weight: bold;
     border-collapse: collapse;
     width: 100%;
 }

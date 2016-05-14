@@ -1,4 +1,4 @@
-section {
+#partner {
   background-color: darkred;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
@@ -20,4 +20,53 @@ span {
   font-weight: normal;
   margin-top: 30px;
   margin-bottom: 0;
+}
+
+/*contact*/
+.formulario{
+	clear: both;
+	margin: 50px;
+	background-color: rgba(0,255,0, 0.4);
+	text-align: center;
+	color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: bold;
+}
+
+.formulario label{
+display: block;
+ width: 70%;
+ height: 23px;
+ padding: 5px;
+}
+.texto{
+	float: left;
+	font-size: 20px;
+	width: 40%;
+	margin-top: 0px;
+}
+input{
+	width: 50%;
+	color: #333;
+}
+.mensaje{
+	width: 100%;
+	overflow: hidden;
+}
+
+.caja{
+	overflow: hidden;
+}
+.formulario textarea {
+    float: left;
+    height: 363px;
+    min-height: 363px;
+    max-height: 363px;
+    width: 100%;
+    color: #000;
+    padding: 5px 10px;
+    margin: 0;
+    background: #fff;
+    overflow: auto;
+    outline: none;
 }
