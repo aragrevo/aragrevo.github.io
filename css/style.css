@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Poiret One', cursive;
 }
 
 #contenidos{
@@ -126,6 +127,9 @@ section{
 	height: 200px;
 	margin-left: 1%;
 	text-align: justify;
+}
+.articulo p{
+	font-weight: bold;
 }
 
 #main-container{
@@ -277,6 +281,10 @@ li{
 	float: left;
 	list-style-type: none;
 	padding-right: 5px;
+}
+footer a{
+	color: white;
+	text-decoration: none;
 }
 
 /*Otros*/

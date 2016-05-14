@@ -13,6 +13,7 @@
 .race {
     border-collapse: collapse;
     width: 100%;
+    font-weight: bold;
 }
 
 .race td {
@@ -33,7 +34,7 @@
 }
 
 .race2 {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
     border-collapse: collapse;
     width: 100%;
 }
@@ -47,10 +48,3 @@
 .race2 tr:nth-child(even){background-color: #f2f2f2}
 
 .race2 tr:hover {background-color: #ddd;}
-
-.race2 th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #4CAF50;
-    color: white;
-}
